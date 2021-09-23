@@ -10,6 +10,7 @@ export class KanbanBoard implements OnInit {
   stagesNames: string[];
   stagesTasks: any[]; //Only used for rendering purpose
   taskName : string = '';
+  
 
   ngOnInit() {
     // Each task is uniquely identified by its name.
